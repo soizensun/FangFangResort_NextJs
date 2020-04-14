@@ -11,7 +11,9 @@ const NavBar = () => {
 
             <main>
                 <div className="topnav">
-                    <img src="logo.png" width="100" height="50"></img>
+
+                    <img src="logo.png" width="100" height="50"></img> 
+                    <span className="logoName">แฟง ฟาง รีสอร์ท</span>
                     <div className="topnav-right">
                         <a href="#all" className="allHouse">แบบบ้านทั้งหมด</a>
                         <a href="#contact" className="contact">ติดต่อเรา</a>
@@ -22,6 +24,11 @@ const NavBar = () => {
 
             <style jsx>{`
 
+                .logoName {
+                    margin-left: 20px;
+                    font-size: 20px;
+                    color: #fff;
+                }
                 .topnav {
                     background: linear-gradient(to right, #155799, #159957);
                     overflow: hidden;

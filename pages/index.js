@@ -70,16 +70,20 @@ const Index = () => (
       .body {
         font-family: 'Mitr', sans-serif;
       }
+
       .jumbotron {
         background: linear-gradient(to right, rgba(21, 87, 153, 0.8), rgba(21, 153, 87, 0.8));
         color: white;
       }
+
       .card {
         width: 20rem;
       }
+
       .container {
         margin-top: 20px;
       }
+
       .jumbotron {
         // height: 100px
       }
@@ -99,32 +103,31 @@ const Index = () => (
       }
       
       .card :hover {
-          transition: all 0.2s ease-out;
-          box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-          top: -2px;
-          border: 1px solid #cccccc;
-          // background-color: white;
-          
-        }
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -2px;
+        border: 1px solid #cccccc;
+        // background-color: white;
+      }
       
-        .card :before {
-          content: "";
-          position: absolute;
-          z-index: -1;
-          top: -16px;
-          right: -16px;
-          background: #00838d;
-          height: 32px;
-          width: 32px;
-          border-radius: 32px;
-          transform: scale(2);
-          transform-origin: 50% 50%;
-          transition: transform 0.15s ease-out;
-        }
+      .card :before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+      }
       
-        .card :hover:before {
-          transform: scale(2.15);
-        }
+      .card :hover:before {
+        transform: scale(2.15);
+      }
     `
     }</style>
 
